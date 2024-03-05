@@ -3,10 +3,12 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f2f2f2;
     
-    background: url('img\ .png');
+    background: url('your-image-url.jpg') no-repeat center center fixed;
     background-size: cover; /* Ensure the image covers the entire viewport */
+}
     
-  }
+    
+  
   
   .navbar {
     background-color: #3498db;
@@ -144,24 +146,10 @@ body {
     }
   }
 
- 
 /* Styles for screens between 768px and 1024px (tablet devices) */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .navbar .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
 
-  .nav-links {
-    display: flex;
-  }
-
-  .menu-toggle {
-    display: none;
-  }
+#manual{
+  width: 100px;
+  height: 50px;
+  padding-left: 50px;
 }
- #manual{
-    width: 100px;
-    height: 50px;
-    padding-left: 50px;
-  }
