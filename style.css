@@ -144,11 +144,7 @@ body {
     }
   }
 
-  #manual{
-    width: 100px;
-    height: 50px;
-    padding-left: 50px;
-  }
+ 
 /* Styles for screens between 768px and 1024px (tablet devices) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .navbar .container {
@@ -164,3 +160,8 @@ body {
     display: none;
   }
 }
+ #manual{
+    width: 100px;
+    height: 50px;
+    padding-left: 50px;
+  }
